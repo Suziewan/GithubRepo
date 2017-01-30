@@ -13,6 +13,9 @@
 		6718D49C1E3FC15C00E37C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6718D49A1E3FC15C00E37C0A /* Main.storyboard */; };
 		6718D49E1E3FC15C00E37C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6718D49D1E3FC15C00E37C0A /* Assets.xcassets */; };
 		6718D4A11E3FC15C00E37C0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6718D49F1E3FC15C00E37C0A /* LaunchScreen.storyboard */; };
+		6718D4AA1E3FCBA700E37C0A /* GithubTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6718D4A91E3FCBA700E37C0A /* GithubTableView.m */; };
+		6718D4AD1E3FCE0900E37C0A /* RepoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6718D4AC1E3FCE0900E37C0A /* RepoTableViewCell.m */; };
+		6718D4B01E3FCF6A00E37C0A /* Repos.m in Sources */ = {isa = PBXBuildFile; fileRef = 6718D4AF1E3FCF6A00E37C0A /* Repos.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		6718D49D1E3FC15C00E37C0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6718D4A01E3FC15C00E37C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6718D4A21E3FC15C00E37C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6718D4A81E3FCBA700E37C0A /* GithubTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GithubTableView.h; sourceTree = "<group>"; };
+		6718D4A91E3FCBA700E37C0A /* GithubTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GithubTableView.m; sourceTree = "<group>"; };
+		6718D4AB1E3FCE0900E37C0A /* RepoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepoTableViewCell.h; sourceTree = "<group>"; };
+		6718D4AC1E3FCE0900E37C0A /* RepoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepoTableViewCell.m; sourceTree = "<group>"; };
+		6718D4AE1E3FCF6A00E37C0A /* Repos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repos.h; sourceTree = "<group>"; };
+		6718D4AF1E3FCF6A00E37C0A /* Repos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repos.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +67,12 @@
 		6718D4901E3FC15C00E37C0A /* GithubRepos */ = {
 			isa = PBXGroup;
 			children = (
-				6718D4941E3FC15C00E37C0A /* AppDelegate.h */,
-				6718D4951E3FC15C00E37C0A /* AppDelegate.m */,
+				6718D4AE1E3FCF6A00E37C0A /* Repos.h */,
+				6718D4AF1E3FCF6A00E37C0A /* Repos.m */,
+				6718D4AB1E3FCE0900E37C0A /* RepoTableViewCell.h */,
+				6718D4AC1E3FCE0900E37C0A /* RepoTableViewCell.m */,
+				6718D4A81E3FCBA700E37C0A /* GithubTableView.h */,
+				6718D4A91E3FCBA700E37C0A /* GithubTableView.m */,
 				6718D4971E3FC15C00E37C0A /* ViewController.h */,
 				6718D4981E3FC15C00E37C0A /* ViewController.m */,
 				6718D49A1E3FC15C00E37C0A /* Main.storyboard */,
@@ -74,6 +87,8 @@
 		6718D4911E3FC15C00E37C0A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6718D4941E3FC15C00E37C0A /* AppDelegate.h */,
+				6718D4951E3FC15C00E37C0A /* AppDelegate.m */,
 				6718D4921E3FC15C00E37C0A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -153,7 +168,10 @@
 			files = (
 				6718D4991E3FC15C00E37C0A /* ViewController.m in Sources */,
 				6718D4961E3FC15C00E37C0A /* AppDelegate.m in Sources */,
+				6718D4AA1E3FCBA700E37C0A /* GithubTableView.m in Sources */,
+				6718D4B01E3FCF6A00E37C0A /* Repos.m in Sources */,
 				6718D4931E3FC15C00E37C0A /* main.m in Sources */,
+				6718D4AD1E3FCE0900E37C0A /* RepoTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
